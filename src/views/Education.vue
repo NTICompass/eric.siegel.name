@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <div class="card col-4">
         <img src="/logos/RIT.jpg" class="card-img-top" alt="Rochester Institute of Technology">
@@ -30,7 +26,3 @@
         </div>
     </div>
 </template>
-
-<style scoped>
-
-</style>
