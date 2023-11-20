@@ -1,7 +1,17 @@
 {
-  "name": "eric-siegel-name",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@nticompass/eric-siegel-name",
+  "version": "1.0.0",
+  "private": false,
+  "publishConfig": {
+    "@nticompass:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NTICompass/eric.siegel.name.git"
+  },
   "browser": "dist/index.html",
   "scripts": {
     "dev": "vite",
