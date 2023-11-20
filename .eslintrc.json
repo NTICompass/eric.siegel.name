@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es2016": true
+  },
+  "root": true,
+  "extends": ["eslint:recommended", "google", "plugin:vue/vue3-recommended"],
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "vue/require-default-prop": "off",
+    "vue/v-on-event-hyphenation": "off",
+    "vue/html-indent": ["error", 4],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": {
+        "max": 3
+      },
+      "multiline": {
+        "max": 2
+      }
+    }],
+    "indent": ["error", 4, {
+      "SwitchCase": 1
+    }],
+    "max-len": ["warn", {
+      "code": 250,
+      "ignoreComments": true,
+      "ignoreRegExpLiterals": true
+    }],
+    "one-var": ["error", {
+      "let": "never",
+      "const": "never"
+    }],
+    "curly": ["error", "all"],
+    "brace-style": ["error", "stroustrup"],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "functions": "never"
+    }],
+    "arrow-parens": ["error", "as-needed"],
+    "quotes": ["warn", "single", {
+      "avoidEscape": true
+    }],
+    "quote-props": ["error", "as-needed"],
+    "no-prototype-builtins": "off",
+    "prefer-object-has-own": "off",
+    "prefer-promise-reject-errors": ["warn", {
+      "allowEmptyReject": true
+    }],
+    "radix": ["error", "always"],
+    "prefer-rest-params": "off",
+    "prefer-spread": "warn",
+    "no-useless-call": "error",
+    "prefer-regex-literals": ["error", {
+      "disallowRedundantWrapping": true
+    }],
+    "no-useless-escape": "off",
+    "prefer-named-capture-group": "off"
+  }
+}
