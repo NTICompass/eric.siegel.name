@@ -8,7 +8,7 @@ import NavBar from './components/NavBar.vue';
             <nav class="col-2">
                 <NavBar />
             </nav>
-            <div class="col-md-auto">
+            <div class="col-10">
                 <RouterView />
             </div>
         </div>
