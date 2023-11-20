@@ -3,7 +3,7 @@ const jobs = [
     {
         name: 'OvationCXM, DBA of Boomtown Network Inc.',
         dates: 'May 2017 - November 2023',
-        image: '/OvationCXM.svg',
+        image: '/logos/OvationCXM.jpg',
         imageAlt: 'OvationCXM',
         items: [
             'Worked with a team on ExtJS app used by multiple clients, including Key Bank',
@@ -14,7 +14,7 @@ const jobs = [
     {
         name: 'IREM Solutions Inc.',
         dates: 'December 2015 - April 2017',
-        image: '/IREMSolutions.png',
+        image: '/logos/IREMSolutions.jpg',
         imageAlt: 'IREM Solutions',
         items: [
             'Migrated web application and database to Amazon Web Services (AWS)',
@@ -24,7 +24,7 @@ const jobs = [
     {
         name: 'Acosta Valuation Solutions Inc.',
         dates: 'June 2010 - November 2015',
-        image: '/Acosta.png',
+        image: '/logos/Acosta.jpg',
         imageAlt: 'Acosta',
         items: [
             'Responsible for the full stack including RHEL, Apache, PHP, MySQL, JavaScript and HTML/CSS',
