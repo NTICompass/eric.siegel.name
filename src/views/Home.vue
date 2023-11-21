@@ -13,7 +13,7 @@
     </p>
     <p>
         I have worked with various JavaScript libraries such as Ext JS and Vue.js.
-        This website is actually built in Vue.js and deployed on to a server that I manage.
+        <a href="https://github.com/NTICompass/eric.siegel.name" target="_blank">This website</a> is actually built in Vue.js and deployed on to a server that I manage.
     </p>
     <p>
         For personal projects, I use Python to create simple programs to help me complete tasks.
