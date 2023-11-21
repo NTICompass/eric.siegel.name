@@ -37,7 +37,7 @@ const jobs = [
 </script>
 
 <template>
-    <div class="row row-cols-2">
+    <div class="row row-cols-1 row-cols-md-2">
         <div v-for="job in jobs.reverse()" :key="job.name" class="col mb-4">
             <div class="card">
                 <img :src="job.image" class="card-img-top" :alt="job.imageAlt">

@@ -1,5 +1,5 @@
 <template>
-    <div class="card col-5">
+    <div class="card col-md-5 col-sm-1">
         <img src="/logos/RIT.jpg" class="card-img-top" alt="Rochester Institute of Technology">
         <div class="card-body">
             <h5 class="card-title">
